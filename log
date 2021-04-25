@@ -1,0 +1,79 @@
+2020-11-07 22:27:40.190536: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-11-07 22:27:42.321776: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcuda.so.1
+2020-11-07 22:27:42.424833: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:04:00.0 name: Tesla K40m computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.17GiB deviceMemoryBandwidth: 268.58GiB/s
+2020-11-07 22:27:42.426401: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 1 with properties: 
+pciBusID: 0000:05:00.0 name: Tesla K40m computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.17GiB deviceMemoryBandwidth: 268.58GiB/s
+2020-11-07 22:27:42.427924: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 2 with properties: 
+pciBusID: 0000:08:00.0 name: Tesla K40m computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.17GiB deviceMemoryBandwidth: 268.58GiB/s
+2020-11-07 22:27:42.429431: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 3 with properties: 
+pciBusID: 0000:09:00.0 name: Tesla K40m computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.17GiB deviceMemoryBandwidth: 268.58GiB/s
+2020-11-07 22:27:42.429461: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-11-07 22:27:42.431419: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-11-07 22:27:42.433147: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2020-11-07 22:27:42.433434: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2020-11-07 22:27:42.435462: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2020-11-07 22:27:42.436565: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2020-11-07 22:27:42.440727: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2020-11-07 22:27:42.452772: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0, 1, 2, 3
+2020-11-07 22:27:42.453225: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-11-07 22:27:42.461328: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2394410000 Hz
+2020-11-07 22:27:42.462307: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5983f20 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-11-07 22:27:42.462331: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-11-07 22:27:42.827769: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x52c2be0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-11-07 22:27:42.827855: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla K40m, Compute Capability 3.5
+2020-11-07 22:27:42.827872: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (1): Tesla K40m, Compute Capability 3.5
+2020-11-07 22:27:42.827886: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (2): Tesla K40m, Compute Capability 3.5
+2020-11-07 22:27:42.827899: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (3): Tesla K40m, Compute Capability 3.5
+2020-11-07 22:27:42.833796: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 0 with properties: 
+pciBusID: 0000:04:00.0 name: Tesla K40m computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.17GiB deviceMemoryBandwidth: 268.58GiB/s
+2020-11-07 22:27:42.836269: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 1 with properties: 
+pciBusID: 0000:05:00.0 name: Tesla K40m computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.17GiB deviceMemoryBandwidth: 268.58GiB/s
+2020-11-07 22:27:42.838677: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 2 with properties: 
+pciBusID: 0000:08:00.0 name: Tesla K40m computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.17GiB deviceMemoryBandwidth: 268.58GiB/s
+2020-11-07 22:27:42.841009: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1716] Found device 3 with properties: 
+pciBusID: 0000:09:00.0 name: Tesla K40m computeCapability: 3.5
+coreClock: 0.745GHz coreCount: 15 deviceMemorySize: 11.17GiB deviceMemoryBandwidth: 268.58GiB/s
+2020-11-07 22:27:42.841073: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-11-07 22:27:42.841117: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+2020-11-07 22:27:42.841150: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcufft.so.10
+2020-11-07 22:27:42.841180: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcurand.so.10
+2020-11-07 22:27:42.841211: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusolver.so.10
+2020-11-07 22:27:42.841241: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcusparse.so.10
+2020-11-07 22:27:42.841272: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudnn.so.7
+2020-11-07 22:27:42.858963: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1858] Adding visible gpu devices: 0, 1, 2, 3
+2020-11-07 22:27:42.859038: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcudart.so.10.1
+2020-11-07 22:27:44.982452: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1257] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-11-07 22:27:44.982541: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1263]      0 1 2 3 
+2020-11-07 22:27:44.982555: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 0:   N Y Y Y 
+2020-11-07 22:27:44.982563: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 1:   Y N Y Y 
+2020-11-07 22:27:44.982571: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 2:   Y Y N Y 
+2020-11-07 22:27:44.982578: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1276] 3:   Y Y Y N 
+2020-11-07 22:27:44.991896: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 10610 MB memory) -> physical GPU (device: 0, name: Tesla K40m, pci bus id: 0000:04:00.0, compute capability: 3.5)
+2020-11-07 22:27:44.994291: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 10610 MB memory) -> physical GPU (device: 1, name: Tesla K40m, pci bus id: 0000:05:00.0, compute capability: 3.5)
+2020-11-07 22:27:44.996516: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:2 with 10610 MB memory) -> physical GPU (device: 2, name: Tesla K40m, pci bus id: 0000:08:00.0, compute capability: 3.5)
+2020-11-07 22:27:44.998709: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1402] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:3 with 10610 MB memory) -> physical GPU (device: 3, name: Tesla K40m, pci bus id: 0000:09:00.0, compute capability: 3.5)
+2020-11-07 22:27:45.796269: I tensorflow/stream_executor/platform/default/dso_loader.cc:48] Successfully opened dynamic library libcublas.so.10
+[INFO] x_train: (60000, 28, 28), y_train: (60000,), x_test: (10000, 28, 28), y_test: (10000,)
+[INFO] train_images: (1000, 784), train_labels: (1000,), test_images: (1000, 784), test_labels: (1000,)
+Epoch 1/3
+ 1/32 [..............................] - ETA: 0s - loss: 2.3379 - sparse_categorical_accuracy: 0.062524/32 [=====================>........] - ETA: 0s - loss: 1.4843 - sparse_categorical_accuracy: 0.623732/32 [==============================] - 0s 8ms/step - loss: 1.3435 - sparse_categorical_accuracy: 0.6660 - val_loss: 1.0282 - val_sparse_categorical_accuracy: 0.7370
+Epoch 2/3
+ 1/32 [..............................] - ETA: 0s - loss: 0.6861 - sparse_categorical_accuracy: 0.812530/32 [===========================>..] - ETA: 0s - loss: 0.6608 - sparse_categorical_accuracy: 0.843832/32 [==============================] - 0s 4ms/step - loss: 0.6563 - sparse_categorical_accuracy: 0.8450 - val_loss: 0.7568 - val_sparse_categorical_accuracy: 0.7940
+Epoch 3/3
+ 1/32 [..............................] - ETA: 0s - loss: 0.5772 - sparse_categorical_accuracy: 0.812526/32 [=======================>......] - ETA: 0s - loss: 0.5103 - sparse_categorical_accuracy: 0.882232/32 [==============================] - 0s 4ms/step - loss: 0.4860 - sparse_categorical_accuracy: 0.8930 - val_loss: 0.6543 - val_sparse_categorical_accuracy: 0.8230
+WARNING:tensorflow:From /home/chenz/workspace/learning/tf_learning/env/lib/python3.6/site-packages/tensorflow/python/training/tracking/tracking.py:111: Model.state_updates (from tensorflow.python.keras.engine.training) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
+2020-11-07 22:27:46.656247: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+WARNING:tensorflow:From /home/chenz/workspace/learning/tf_learning/env/lib/python3.6/site-packages/tensorflow/python/training/tracking/tracking.py:111: Layer.updates (from tensorflow.python.keras.engine.base_layer) is deprecated and will be removed in a future version.
+Instructions for updating:
+This property should not be used in TensorFlow 2.0, as updates are applied automatically.
