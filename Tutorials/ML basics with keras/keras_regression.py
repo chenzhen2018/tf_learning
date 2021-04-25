@@ -99,7 +99,7 @@ hist['epoch'] = history.epoch
 print(hist.tail())
 
 # Plot
-keras_plot.plot_history(history, names=['loss', 'mae', 'mse'], is_val=True, save_path='./imgs/6.png')
+keras_plot.plot_history(history, names=['loss', 'mae', 'mse'], is_val=True, save_path='../../imgs/6.png')
 
 # Evaluation
 loss, mae, mse = model.evaluate(normed_test_data, test_labels, verbose=2)
